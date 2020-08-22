@@ -35,7 +35,7 @@ end
 
 def 
   
-  get_japanese_emoticon(file,english_emoji)
+  get_japanese_emoticon(file, english_emoji)
       puts
       puts ":: #{japenese_emoji}"
       puts
