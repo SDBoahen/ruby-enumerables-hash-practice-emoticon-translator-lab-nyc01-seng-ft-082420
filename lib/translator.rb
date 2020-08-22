@@ -38,16 +38,17 @@ def
   get_japanese_emoticon(file, english_emoji)
                  
       #           emoji_in = english_emoji
-      # puts
-      # puts ":: #{emoji_in}"
-      # puts
+      puts
+      puts ":: #{english_emoji}"
+      puts
+      
   english_REF = load_library(file)
 
       shrug = "idek what that means Fam  :T . . ."
   
   english_REF.each do |value, meaning|
-    if  english_REF[value][:english] == english_emoji
-        return english_REF[value][:japanese]       end
+    if         english_REF[value][:english] == english_emoji
+        return english_REF[value][:japanese]             end
                    end
 
 return shrug
@@ -63,9 +64,9 @@ def
   get_english_meaning(file, japenese_emoji)
                  
       #           emoji_in = japenese_emoji
-      # puts
-      # puts ":: #{emoji_in}"
-      # puts
+      puts
+      puts ":: #{japenese_emoji}"
+      puts
       
   japanese_REF = load_library(file)
 
