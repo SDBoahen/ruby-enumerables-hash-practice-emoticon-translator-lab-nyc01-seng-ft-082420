@@ -60,10 +60,10 @@ def
   
   get_english_meaning(file, japenese_emoji)
                  
-                 emoji_in = japenese_emoji
-      puts
-      puts ":: #{emoji_in}"
-      puts
+      #           emoji_in = japenese_emoji
+      # puts
+      # puts ":: #{emoji_in}"
+      # puts
       
   japanese_REF = load_library(file)
 
