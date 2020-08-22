@@ -44,7 +44,8 @@ def
       
   english_REF = load_library(file)
 
-      shrug = "idek what that means Fam  :T . . ."
+      shrug = "Sorry, that emoticon was not found"
+      #  x-x  shrug = "idek what that means Fam  :T . . ."
   
   english_REF.each do |value, meaning|
     if         english_REF[value][:english] == english_emoji
@@ -70,7 +71,8 @@ def
       
   japanese_REF = load_library(file)
 
-      shrug = "idek what that means Fam  :T . . ."
+      shrug = "Sorry, that emoticon was not found"
+      #  x-x  shrug = "idek what that means Fam  :T . . ."
 
   japanese_REF.each do |value, meaning|
     if  japanese_REF[value][:japanese] == japenese_emoji
