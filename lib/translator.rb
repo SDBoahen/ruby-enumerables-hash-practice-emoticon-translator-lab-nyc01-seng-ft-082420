@@ -59,9 +59,12 @@ end
 def 
   
   get_english_meaning(file, japenese_emoji)
+                 
+                 emoji_in = japenese_emoji
       puts
-      puts ":: #{japenese_emoji}"
+      puts ":: #{emoji_in}"
       puts
+      
   japanese_REF = load_library(file)
 
       shrug = "idek what that means Fam  :T . . ."
